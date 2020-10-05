@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MenuelComponent implements OnInit {
   @Input() name;
   @Input() img;
+  @Input() alert;
 
   constructor() { }
 

@@ -13,7 +13,7 @@
     <div class="menu">
       <div class="container menu-list">
         <div *ngFor="let menu of menus">
-          <app-menuel [name]="menu.name" [img]="menu.img" *ngIf="menu.visible"></app-menuel>
+          <app-menuel [name]="menu.name" [img]="menu.img" [alert]="menu.alert" *ngIf="menu.visible"></app-menuel>
         </div>
       </div>
     </div>

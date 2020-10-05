@@ -11,32 +11,38 @@ export class AppComponent {
     {
       name : "Reserva de salas",
       img: "ng-image0.png",
-      visible: true
+      visible: true,
+      alert: false
     }, 
     {
       name : "Reporte de problemas",
       img: "ng-image1.png",
-      visible: true
+      visible: true,
+      alert: false
     }, 
     {
       name : "Mi equipo",
       img: "ng-image3.png",
-      visible: true
+      visible: true,
+      alert: false
     }, 
     {
       name : "Comunicados",
       img: "ng-image2.png",
-      visible: true
+      visible: true,
+      alert: true
     }, 
     {
       name : "Ficha de sintomatologia",
       img: "ng-image4.png",
-      visible: true
+      visible: true,
+      alert: false
     }, 
     {
       name : "Otro oculto",
       img: "ng-image4.png",
-      visible: false
+      visible: false,
+      alert: false
     }
   ]
 }
