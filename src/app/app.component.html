@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <header class="header container">
+      <img src="../assets/images/logo.png" alt="">
+  </header>
+  <div class="wrapper">
+    <div class="header-page">
+        <div class="container hello">
+            <img src="/assets/images/icon-user.png" alt="">
+            <h1>Hola, Usuario</h1>
+        </div>
+    </div>
+    <div class="menu">
+      <div class="container menu-list">
+        <div *ngFor="let menu of menus">
+          <app-menuel [name]="menu.name" [img]="menu.img" *ngIf="menu.visible"></app-menuel>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

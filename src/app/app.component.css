@@ -1,0 +1,45 @@
+body{
+    background: #fff;
+    font-family: sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-page{
+    border-top: 1px solid #ccc;
+    box-shadow: 3px 3px 10px -1px rgba(0,0,0,0.25);
+}
+.header img{
+    height: 17.81px;
+    width: auto;
+    padding: 24px 0;
+}
+.menu{
+    background: #FAFAFA;
+    padding: 24px 0 50px;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.hello{
+    display: flex;
+    align-items: center;
+    padding: 23px 0;
+}
+.hello img{
+    border-radius: 50%;
+}
+h1{
+    vertical-align: middle;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    margin: 0;
+}

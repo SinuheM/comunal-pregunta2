@@ -1,0 +1,32 @@
+.menu-el{
+    padding: 20px;
+    background: #fff;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 196px;
+    height: 196px;
+    text-align: center;
+    justify-content: center;
+    transition: all .5s;
+    cursor: pointer;
+}
+.menu-el:hover{
+    background: #eee;
+}
+.menu-el p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 131% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.194286px;
+}
+.menu-el img{
+    width: auto
+}
